@@ -1,0 +1,41 @@
+
+{
+  "name": "neo-matrix-by-neo",
+  "displayName": "Green Code: Matrix Theme — AK",
+  "description": "A neon-green, Matrix-inspired dark theme with green-on-black coding aesthetics.",
+  "version": "0.0.2",
+  "publisher": "neo-ashish-tools",
+  "license": "MIT",
+  "keywords": [
+    "matrix",
+    "green",
+    "neon",
+    "hacker",
+    "dark",
+    "cyberpunk",
+    "green-code",
+    "matrix-theme",
+    "dark-theme",
+    "vscode-theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#003b00",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Code: Matrix Theme — AK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Matrix-color-theme.json"
+      }
+    ]
+  }
+}
